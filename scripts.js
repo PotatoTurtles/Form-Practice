@@ -37,6 +37,7 @@ const postalCodeRegex = {
   "Indonesia": "\\d{5}",  // 10110
   "Thailand": "\\d{5}",  // 10110
   "Vietnam": "\\d{5}",  // 10000
+  "Algeria": "\\d{5}",  // 16000
 };
 
 let mail = document.querySelector('#mail');
