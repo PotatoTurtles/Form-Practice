@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <form action="post">
+        <div class="inCont">
+            <label for="mail">Email: </label>
+            <input type="email" name="email" id="mail" minlength="3" placeholder="example@gmail.com" required autocomplete="email">
+        </div>
+
+        <div class="inCont">
+            <label for="count">Country: </label>
+            <input type="text" name="country" id="count" placeholder="United States of America" required autocomplete="country-name">
+        </div>
+        
+        <div class="inCont">
+            <label for="post">Postal Code: </label>
+            <input type="text" name="postal" id="post" placeholder="96799" autocomplete="postal-code" required>
+        </div>
+
+        <div class="inCont">
+            <label for="pass1">Password: </label>
+            <input type="password" name="pass" id="pass1" placeholder="**********" required >
+        </div>
+
+        <div class="inCont">
+            <label for="pass2">Confirm Password: </label>
+            <input type="password" id="pass2" placeholder="**********" required>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
